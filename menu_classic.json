@@ -1,0 +1,139 @@
+{
+  "name": "Ultimate Media Station X",
+  "version": "1.0",
+  "type": "list",
+  "items": [
+    {
+      "title": "📺 IPTV",
+      "type": "list",
+      "items": [
+        {
+          "title": "Основной IPTV",
+          "type": "playlist",
+          "url": "https://example.com/iptv.m3u"
+        },
+        {
+          "title": "Архив IPTV",
+          "type": "playlist",
+          "url": "https://example.com/iptv_archive.m3u"
+        }
+      ]
+    },
+    {
+      "title": "🎬 Фильмы и сериалы",
+      "type": "list",
+      "items": [
+        {
+          "title": "TorrServer",
+          "type": "video",
+          "url": "http://192.168.1.100:8090"
+        },
+        {
+          "title": "Rezka",
+          "type": "link",
+          "url": "https://rezka.ag"
+        },
+        {
+          "title": "KinoPub",
+          "type": "link",
+          "url": "https://kinopub.me"
+        }
+      ]
+    },
+    {
+      "title": "📡 Онлайн ТВ / Стримы",
+      "type": "list",
+      "items": [
+        {
+          "title": "YouTube",
+          "type": "link",
+          "url": "https://youtube.com"
+        },
+        {
+          "title": "Twitch",
+          "type": "link",
+          "url": "https://twitch.tv"
+        }
+      ]
+    },
+    {
+      "title": "🖥 Локальная сеть",
+      "type": "list",
+      "items": [
+        {
+          "title": "NAS / Web UI",
+          "type": "link",
+          "url": "http://192.168.1.50"
+        },
+        {
+          "title": "Plex",
+          "type": "link",
+          "url": "http://192.168.1.60:32400/web"
+        },
+        {
+          "title": "Home Assistant",
+          "type": "link",
+          "url": "http://192.168.1.70:8123"
+        }
+      ]
+    },
+    {
+      "title": "🛠 Утилиты",
+      "type": "list",
+      "items": [
+        {
+          "title": "SpeedTest",
+          "type": "link",
+          "url": "https://fast.com"
+        },
+        {
+          "title": "Router",
+          "type": "link",
+          "url": "http://192.168.1.1"
+        }
+      ]
+    },
+    {
+      "title": "🔐 WireGuard VPN",
+      "type": "list",
+      "items": [
+        {
+          "title": "WireGuard Web UI",
+          "type": "link",
+          "url": "http://192.168.1.200:51821"
+        },
+        {
+          "title": "WireGuard Status",
+          "type": "link",
+          "url": "http://192.168.1.200:51821/status"
+        },
+        {
+          "title": "QR для клиента",
+          "type": "link",
+          "url": "http://192.168.1.200:51821/qrcode"
+        },
+        {
+          "title": "Инструкция по подключению",
+          "type": "link",
+          "url": "https://www.wireguard.com/install/"
+        }
+      ]
+    },
+    {
+      "title": "ℹ️ О системе",
+      "type": "list",
+      "items": [
+        {
+          "title": "GitHub меню",
+          "type": "link",
+          "url": "https://github.com/username/msx"
+        },
+        {
+          "title": "Media Station X",
+          "type": "link",
+          "url": "https://msx.benzac.de"
+        }
+      ]
+    }
+  ]
+}
